@@ -1,5 +1,5 @@
 *{
-    height: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -16,14 +16,14 @@
     /* gap: 2px; */
 }
 .box{
-    height: 200px;
+    /* height: 200px; */
     /* width: 200px; */
     border: 2px solid yellowgreen;
 }
 
 #box-1{
     background-color: rgb(24, 174, 219);
-    grid-area: 1/1/2/3;
+   
     
     
 }
