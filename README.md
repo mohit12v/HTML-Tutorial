@@ -6,4 +6,4 @@ This repository contains my HTML and CSS practice projects.
 - HTML and CSS
 - CSS Grid
 - overflow text
-- 
+  
