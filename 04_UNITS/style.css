@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font size: 100px;
+}
+.fixcontainer{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+.parent{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+.chiled{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+}
+.container{
+    height: 200vh;
+    width: 200vw;
+    border: 10px solid black;
+}
+.big-box{
+    font-size: 100px;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    margin: 10px auto;
+    
+}
+.small-size{
+font-size: 3em;
+}
+.title{
+    font-size:10rem;
+    /* aama 1*em atle 16px thai aetle 10rem litha 6e
+    aetle 160 px thase
+     */
+}
