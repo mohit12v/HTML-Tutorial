@@ -1,0 +1,25 @@
+:root{
+    --primarycolor:teal;
+    --secendorycolor:coral;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading{
+    color:var(--primarycolor)
+}
+.btn{
+    background-color:var(--secendorycolor);
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+    width: 70px;
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
