@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    scroll-behavior: smooth;
+    color: white;
+    background-color: #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:15PX 50PX;
+    background-color: gray;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-left{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+nav a{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.logo{
+    height: 15px;
+    
+}
+.subscription,.grid{
+    filter:invert(1);
+    height: 22px;
+    width: 22px;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+
+}
+.user{
+    height: 35px;
+    width: 35px;
+}
