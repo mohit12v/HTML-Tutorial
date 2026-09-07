@@ -71,6 +71,14 @@ nav a:hover {
   color: white;
   font-weight: 600;
 }
+.join:hover{
+ background-color: #1ba0ff;
+   scale: 1.1;
+  box-shadow:
+    #1ba0ff 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
 .dropdown {
   position: relative;
 }
@@ -87,4 +95,11 @@ nav a:hover {
 }
 .dropdown:hover .language {
   display: block;
+}
+#hero{
+  background-image: url(./asset/movie.avif);
+  height: 80vh;
+  width: 100vw;
+  background-size:contain ;
+  background-repeat: no-repeat;
 }
