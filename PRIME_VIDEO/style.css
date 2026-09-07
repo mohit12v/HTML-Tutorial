@@ -1,67 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
 }
 
-body{
-    scroll-behavior: smooth;
-    color: white;
-    background-color: #000000;
+body {
+  scroll-behavior: smooth;
+  color: white;
+  background-color: #000000;
+   transition: all 0.1s ease-in-out;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding:15PX 50PX;
-    background-color: gray;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #00050c;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgb(0, 0, 0, 0));
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 
+.nav-left {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
-ul li{
-    list-style: none;
+nav a {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
 }
-a{
-    text-decoration: none;
+nav a:hover {
+  background-color: white;
+    color: black;
+}
+.logo {
+  height: 15px;
+}
+.subscription,
+.grid {
+  filter: invert(1);
+  height: 22px;
+  width: 22px;
+}
+.nav-right {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-left{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-
+.user {
+  height: 35px;
+  width: 35px;
 }
-nav a{
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
+.join {
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  width: 110px;
+  background-color: #1a98ff;
+  font-size: 17px;
+  color: white;
+  font-weight: 600;
 }
-.logo{
-    height: 15px;
-    
+.dropdown {
+  position: relative;
 }
-.subscription,.grid{
-    filter:invert(1);
-    height: 22px;
-    width: 22px;
+.language {
+  display: none;
+  position: absolute;
+  column-count: 4;
+  gap: a;
+  top: 50px;
+  right: -180px;
+  background-color: rgb(red, green, blue);
+  padding: 20px;
+  backdrop-filter: blur(10px);
 }
-.nav-right{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.language{
-
-}
-.user{
-    height: 35px;
-    width: 35px;
-}
-.join{
-    border:;
-    border-radius: 40px;
-    height: 50px;
-    width: 50px;
+.dropdown:hover .language {
+  display: block;
 }
