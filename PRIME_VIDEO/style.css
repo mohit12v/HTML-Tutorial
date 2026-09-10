@@ -155,7 +155,8 @@ nav a:hover {
   font-weight: 700;
 }
 
-.add,.film {
+.add,
+.film {
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -193,7 +194,6 @@ nav a:hover {
   gap: 50px;
 }
 
-
 .movie-card-wrapper {
   display: flex;
   gap: 20px;
@@ -227,7 +227,7 @@ nav a:hover {
 .movie-card:hover .movie-hidden-detail {
   display: block;
 }
-.play-btn{
+.play-btn {
   height: 40px;
   width: 180px;
   border-radius: 10px;
@@ -237,52 +237,83 @@ nav a:hover {
   color: #00a8e1;
 }
 .rank i {
-height: 5px;
-
+  height: 5px;
 }
 /* .rank h2{
   font-size: medium;
 } */
- .movie-hidden-detail .rank {
+.movie-hidden-detail .rank {
   font-size: 18px;
 }
 .movie-hidden-detail .card-description {
   font-size: 16px;
   text-align: left;
 }
-.new-card-btn{
+.new-card-btn {
   display: flex;
   gap: 10px;
 }
-.new-btn{
+.new-btn {
   border: none;
   border-radius: 2px;
-  background-color: #33373D;
+  background-color: #33373d;
   color: white;
   font-weight: 600;
   font-size: medium;
 }
-.new3-card-btn{
+.new3-card-btn {
   display: flex;
   gap: 10px;
 }
-.new3-btn{
+.new3-btn {
   border: none;
   /* border-radius: 2px; */
-  background-color: #33373D;
+  background-color: #33373d;
   color: white;
   font-weight: 600;
   font-size: medium;
 }
-.new4-card-btn{
+.new4-card-btn {
   display: flex;
   gap: 10px;
 }
-.new4-btn{
+.new4-btn {
   border: none;
   /* border-radius: 2px; */
-  background-color: #33373D;
+  background-color: #33373d;
   color: white;
   font-weight: 600;
   font-size: medium;
+}
+.pop1-card-btn {
+  display: flex;
+  gap: 10px;
+}
+.pop1-btn {
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  /* font-size: medium; */
+  /* width: 10px; */
+}
+.pop2-card-btn {
+  display: flex;
+  gap: 10px;
+}
+.pop2-btn {
+  border: none;
+  border-radius: 3px;
+  font-width: 18px;
+}
+.pop23-btn{
+  border: none;
+  border-radius: 3px;
+  background-color: #33373D;
+  color: white;
+  margin-top: 5px;
+}
+.pop24{
+  margin-top: 5px;
 }
