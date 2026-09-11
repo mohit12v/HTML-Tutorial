@@ -307,13 +307,55 @@ nav a:hover {
   border-radius: 3px;
   font-width: 18px;
 }
-.pop23-btn{
+.pop23-btn {
   border: none;
   border-radius: 3px;
-  background-color: #33373D;
+  background-color: #33373d;
   color: white;
   margin-top: 5px;
 }
-.pop24{
+.pop24 {
   margin-top: 5px;
+}
+.pop3-card-btn {
+  display: flex;
+  gap: 5px;
+}
+.pop3-btn {
+  border: none;
+  border-radius: 6px;
+  background-color: #33373d;
+  color: white;
+  height: 30px;
+  width: 70px;
+  font-size: medium;
+  font-weight: 300;
+}
+.POP23 {
+  margin-top: 5px;
+}
+.POP4-btn {
+  font-weight: 100;
+}
+.pop4-card-btn {
+  display: flex;
+  gap: 3px;
+}
+.pop25 {
+  font-size: smaller;
+  margin-top: 5px;
+}
+.tra-card-btn {
+  display: flex;
+  gap: 5px;
+}
+.tra1{
+  margin-top: 5px;
+}
+.tra-1{
+border: none;
+border-radius: 3px;
+font-weight: 500;
+font: bolder;
+margin-top: 3px;
 }
