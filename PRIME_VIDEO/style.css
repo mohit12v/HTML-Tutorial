@@ -10,6 +10,7 @@ body {
   color: white;
   background-color: #000000;
   transition: all 0.1s ease-in-out;
+   overflow-x: hidden;
 }
 
 nav {
@@ -206,6 +207,7 @@ nav a:hover {
   border-radius: 10px;
   position: relative;
   transition: all 1s;
+  
 }
 
 .movie-card:hover {
@@ -226,6 +228,10 @@ nav a:hover {
 
 .movie-card:hover .movie-hidden-detail {
   display: block;
+}
+.one-card-buttons{
+  display: flex;
+  gap: 5px;
 }
 .play-btn {
   height: 40px;
